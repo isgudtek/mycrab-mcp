@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mycrab-mcp"
+version = "0.1.0"
+description = "MCP server for mycrab.space — instant Cloudflare tunnels for AI agents"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["mcp", "cloudflare", "tunnel", "agents", "x402", "solana"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "httpx>=0.24.0",
+]
+
+[project.urls]
+Homepage = "https://mycrab.space"
+Repository = "https://github.com/isgudtek/mycrab-mcp"
+
+[project.scripts]
+mycrab-mcp = "mycrab_mcp.server:main"
