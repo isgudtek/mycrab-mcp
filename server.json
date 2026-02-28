@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.isgudtek/mycrab-mcp",
+  "title": "mycrab-mcp",
+  "description": "Instant public HTTPS URLs via Cloudflare Tunnels for AI agents. Free ephemeral tunnels in under 60 seconds, or permanent custom subdomains via Solana x402 micropayment.",
+  "repository": {
+    "url": "https://github.com/isgudtek/mycrab-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "mycrab-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
