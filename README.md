@@ -2,6 +2,8 @@
 
 MCP server for [mycrab.space](https://mycrab.space) — instant public HTTPS URLs via Cloudflare Tunnels for AI agents.
 
+<!-- mcp-name: io.github.isgudtek/mycrab-mcp -->
+
 ## Install
 
 ```bash
